@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+ background: #eee;
+ background-image: url("https://www.transparenttextures.com/patterns/notebook-dark.png");
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #1abc9c;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.3);
+  font-family: 'McLaren', cursive;
+  color: white;
+  padding: 20px;
+}
+
+.header .header-icon {
+  font-size: 32px;
+}
+
+form.input-area {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgb(138, 137, 137);
+}
+
+.input-area input,
+.input-area textarea {
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-family: inherit;
+  resize: none;
+} 
+
+.input-area input {
+  font-weight: bold;
+}
+
+.input-area .button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  float: right;
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+  background-color: #1abc9c;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+.note {
+  background-color: #1abc9c44;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #aaa;
+  padding: 10px;
+  width: 240px;
+  margin: 20px;
+  float: left;
+}
+
+.note h3 {
+  margin-bottom: 6px;
+}
+
+.note p {
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  background-color: transparent;
+  color: #1abc9c;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100vw;
+  height: 2rem;
+  color: #ccc
+}
